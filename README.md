@@ -7,7 +7,7 @@ This repository contains C++ code for a rasterizer based on the Bresenham line a
 
 #### rasterizer.h
 
-This file contains the implementation of the `Rasterizer` class, which provides methods for drawing lines, circles, and patterns based on the Bresenham line and circle drawing algorithms. The class also includes functions for clearing the frame buffer and obtaining the frame buffer contents.
+This file contains the definition of the `Rasterizer` class, which declares methods for drawing lines, circles, and patterns based on the Bresenham line and circle drawing algorithms. The class also includes functions for clearing the frame buffer and obtaining the frame buffer contents.
 
 #### rasterizer.cpp
 
@@ -20,6 +20,14 @@ The `main.cpp` file demonstrates the usage of the `Rasterizer` class by executin
 #### global.h
 
 This header file contains a constant definition for the mathematical constant PI.
+
+### Functionality
+
+The `Rasterizer` class provides the following functionalities:
+
+- Drawing lines and circles
+- Task 1: Drawing a series of lines with varying colors and angles
+- Task 2: Creating a grid pattern with concentric circles, with decreasing radii and varying colors
 
 ### Screenshots
 
